@@ -125,7 +125,7 @@ async function getFirstResultText(page: Page): Promise<string> {
  * TESTS
  */
 
-test.describe('Search + Listing Validation', () => {
+test.describe('search + listing validation', () => {
 
   test('search returns valid list entries', async ({ page, browser }) => {
 
@@ -177,7 +177,7 @@ test.describe('Search + Listing Validation', () => {
   });
 
 
-  test('Search results updates when changing city', async ({ page }) => {
+  test('search results updates when changing city', async ({ page }) => {
     try {
       await navigateToHome(page);
       await page.waitForTimeout(5000);

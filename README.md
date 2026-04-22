@@ -1,6 +1,6 @@
 # group-therapy
 # Quick start
-run  the following commands to install necesary dependencies , playwright and browsers:
+run  the following commands to install neccesary dependencies , playwright and browsers:
 1) npm install
 2) npx playwright install
 3) npx playwright test
@@ -9,4 +9,7 @@ run  the following commands to install necesary dependencies , playwright and br
 Tests can be run on edge with  : npx playwright test --project="Microsoft Edge". The browser type can be changed depending on your preference
 
 # Futher Improvements
-1) Test cases and logic are located in thesame file. This can be seperated for scalabilty and maintainability.  It can be separated into logic and test cases as well as helper functions. The creating of modular test cases improves long-term maintainability.
+1) Test cases and logic are located in thesame file. This can be seperated for scalabilty and maintainability.  It can be separated into logic and test cases as well as helper functions. using modular test cases improves long-term maintainability.
+
+2) usage of enviromental variables 
+3) usage of tags for regresiion or smoke testing
