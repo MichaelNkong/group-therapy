@@ -10,6 +10,5 @@ Tests can be run on edge with  : npx playwright test --project="Microsoft Edge".
 
 # Futher Improvements
 1) Test cases and logic are located in thesame file. This can be seperated for scalabilty and maintainability.  It can be separated into logic and test cases as well as helper functions. using modular test cases improves long-term maintainability.
-
 2) usage of enviromental variables 
 3) usage of tags for regresiion or smoke testing
